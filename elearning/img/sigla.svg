@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="252.71436mm"
+   height="116.49247mm"
+   viewBox="0 0 252.71436 116.49247"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (b8e25be833, 2022-02-05)"
+   sodipodi:docname="sigla.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="0.46235269"
+     inkscape:cx="412.02312"
+     inkscape:cy="250.89072"
+     inkscape:window-width="1366"
+     inkscape:window-height="705"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient8762">
+      <stop
+         style="stop-color:#000080;stop-opacity:1;"
+         offset="0"
+         id="stop8758" />
+      <stop
+         style="stop-color:#ff0000;stop-opacity:1"
+         offset="1"
+         id="stop8760" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient8762"
+       id="linearGradient8764"
+       x1="-10.933508"
+       y1="140.82602"
+       x2="240.78084"
+       y2="140.82602"
+       gradientUnits="userSpaceOnUse" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(11.433508,-82.579783)">
+    <g
+       aria-label="E-L"
+       id="text1112"
+       style="font-size:173.281px;line-height:1.25;fill:url(#linearGradient8764);stroke:#000000">
+      <path
+         d="m -10.933508,198.57225 q 2.1152464,-21.82935 3.0459549,-36.55146 1.0153184,-14.72212 1.9460269,-39.08976 1.0153184,-24.452251 1.0153184,-32.405579 l -0.08461,-7.445668 q 19.9679286,0.16922 48.3122336,0.16922 26.144449,0 46.112377,-0.16922 l -0.16922,2.792126 q -0.08461,1.015318 -0.423049,7.361058 l -0.507659,9.222473 q -0.16922,2.96135 -0.16922,6.0073 -16.329704,-0.67688 -27.413597,-0.67688 -12.18382,0 -16.498924,0.0846 -4.230493,0 -13.283749,0.33844 l -1.015318,19.37566 q 9.983964,0.25383 23.267713,0.25383 4.738153,0 25.21374,-0.59227 -0.846098,10.83007 -1.607587,25.80601 -14.637507,-0.16922 -22.506224,-0.16922 -11.676162,0 -26.144449,0.59227 l -1.015319,20.5602 h 9.730135 q 4.315103,0 17.852682,-0.25383 l 17.514242,-0.42305 q 3.892054,-0.0846 13.02992,-0.67688 -1.015319,12.52226 -1.692198,25.89062 -20.644807,-0.16922 -45.266278,-0.16922 l -37.2283413,0.0846 z"
+         style="font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC'"
+         id="path13684" />
+      <path
+         d="m 94.659605,165.32057 q 1.015319,-12.26843 1.269148,-23.43693 12.014597,0.33844 22.675447,0.33844 10.83006,0 22.76005,-0.33844 -1.01532,10.91467 -1.26915,23.43693 -12.0146,-0.25383 -22.76005,-0.25383 -10.74545,0 -22.675445,0.25383 z"
+         style="font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC'"
+         id="path13686" />
+      <path
+         d="m 148.80992,198.57225 q 2.11524,-19.96793 3.04595,-32.5748 1.77681,-23.01388 2.62291,-45.68933 0.93071,-22.76005 0.93071,-37.228337 11.50694,0.16922 20.39097,0.16922 6.0073,0 17.26042,-0.16922 l -2.03064,30.628767 -2.5383,47.88919 -0.33844,11.76077 q 14.5529,0.25383 18.95261,0.25383 22.2524,0 33.67473,-0.59227 l -1.86142,25.55218 q -22.25239,-0.16922 -42.38954,-0.16922 -27.24438,0 -47.71996,0.16922 z"
+         style="font-family:'Eras Bold ITC';-inkscape-font-specification:'Eras Bold ITC'"
+         id="path13688" />
+    </g>
+  </g>
+</svg>

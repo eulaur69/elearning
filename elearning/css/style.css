@@ -1,0 +1,1133 @@
+@media only screen and (max-width: 768px) {
+    body {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+    }
+    header {
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        height: 10%;
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-bottom: 2%;
+        margin-top: 2%;
+    }
+    h1 {
+        font-size: 7vh;
+        margin: 0;
+    }
+    h2 {
+        font-size: 2em;
+    }
+    p {
+        font-size: 1.3em;
+        background: rgb(0, 8, 55);
+        color: white;
+        padding-top: 2%;
+        padding-bottom: 2%;
+        overflow: auto;
+        word-wrap: break-word;
+    }
+    a {
+        color: white;
+    }
+    footer {
+        height: 7%;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding-left: 5%;
+        padding-right: 5%;
+        font-family: "Roboto", serif;
+        background: rgb(118, 126, 171);
+    }
+    .contentTable {
+        display: block;
+        white-space: nowrap;
+        width: 100%;
+        padding-bottom: 1px;
+        table-layout: fixed;
+        overflow: none;
+        font-size: 5vw;
+    }
+    .contentTable td {
+        word-break: break-word;
+    }
+    .contentTable th {
+        word-break: break-word;
+    }
+    .profile-item{
+        color : white;
+    }
+    .mobileTableContainer {
+        overflow-x: scroll;
+        margin-left: calc(5% + 150px + 16px);
+        padding: 0;
+        font-size: 5vw;
+    }
+    .stickyCol {
+        position: absolute;
+        left: 0;
+        top: auto;
+        font-size: 5vw;
+        background-color: rgb(0, 8, 55);
+        margin-top: -1px;
+    }
+    .first-col {
+        width: 10px;
+        min-width: 10px;
+        max-width: 10px;
+        left: 5%;
+    }
+    .second-col {
+        width: 150px;
+        min-width: 150px;
+        max-width: 150px;
+        left: calc(5% + 22px);
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+    .col-holder {
+        display: none;
+    }
+    .mobile-submit-button-default {
+        display: block;
+    }
+    footer #fb-icon {
+        cursor: pointer;
+        align-self: center;
+        width: 15%
+    }
+    footer p {
+        background-color: rgb(0, 0, 0, 0);
+        font-size: 2vh;
+        text-align: right;
+        align-self: center;
+        padding: 0;
+    }
+    #mobile-menu {
+        display: block;
+        z-index: 3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        float: left;
+        width: 70%;
+        height: 100%;
+        background-color: rgb(255, 255, 255, 0.97);
+        transition: .4s ease-in-out;
+        transform: translateX(-101%);
+        overflow: hidden;
+    }
+    #menu-close-button {
+        margin-top: 3px;
+        margin-right: 10px;
+        display: block;
+        float: right;
+        width: 10vw;
+        height: 10vw;
+        padding: 0;
+        position: relative;
+        border: 0;
+        border-radius: 50%;
+    }
+    .noteInput {
+        width: 30px;
+        
+    }
+    #menu-close-button i {
+        font-size: 2em;
+        text-align: center;
+        vertical-align: middle;
+    }
+    #mobile-menu ul {
+        list-style: none;
+        padding-left: 0;
+    }
+    #mobile-menu ul a {
+        display: block;
+        color: black;
+        text-decoration: none;
+        font-family: 'Roboto', serif;
+        font-size: 4vh;
+        padding-left: 5%;
+        overflow: hidden;
+    }
+    #mobile-menu ul li {
+        padding-top: 10%;
+        border-bottom: 2px solid black;
+    }
+    #menu-button {
+        width: 15%;
+        align-self: center;
+    }
+    #log-in-button {
+        height: 40%;
+        background-color: black;
+        color: white;
+        align-self: center;
+        padding-left: 3%;
+        padding-right: 3%;
+        border-radius: 15px;
+        border: none;
+    }
+    #log-in-button:active {
+        border-style: outset;
+        border: none;
+        outline: none;
+    }
+    #log-in-button:focus {
+        border-style: outset;
+        border: none;
+        outline: none;
+    }
+    #sigla {
+        width: 50px;
+        height : 50px;
+    }
+    #content {
+        font-family: 'Roboto', serif;
+    }
+    #content h1 {
+        margin-left: -5%;
+        margin-right: -5%;
+        padding-left: 5%;
+        padding-right: 5%;
+        background-color: white;
+    }
+    #content .fa {
+        font-size: 4vh;
+        padding-left: 3%;
+        color: white;
+    }
+    #content article {
+        background: rgb(0, 8, 55);
+        padding-bottom: 2%;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin: 0;
+    }
+    #content #search-menu {
+        display: flex;
+        flex-direction: row;
+        margin-right: 10%;
+    }
+    #content #search-menu span {
+        margin-left: 3%;
+        align-self: center;
+    }
+    #content #search-menu #search-box {
+        align-self: flex-start;
+    }
+    #content ul {
+        color: white;
+        list-style-type: none;
+        padding-left: 0;
+    }
+    #content ul li {
+        color: white;
+        margin-bottom: 2%;
+        font-size: 1.3em;
+    }
+    #content>article>ul>li>a {
+        color: white;
+        font-size: 1.3em
+    }
+    #content h2 {
+        color: white;
+        font-style: bold;
+        margin-top: 2%;
+        margin-bottom: 0;
+    }
+    #search-box {
+        display: inline-block;
+        width: 80%;
+        height: 6vh;
+        border-radius: 3em;
+    }
+    .desktop-only {
+        display: none;
+    }
+    .code {
+        color: white;
+        background: rgb(28, 41, 116);
+        border: 2px solid black;
+        white-space: pre-wrap;
+        margin: 0;
+        margin-right: 5%;
+        margin-left: 5%;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    pre {
+        overflow: auto;
+    }
+    table {
+        margin-top: 3%;
+        color: white;
+        text-align: center;
+        border-collapse: collapse;
+        table-layout: fixed;
+        width: 100%;
+    }
+    th,
+    td {
+        border: 1px solid grey;
+        padding: 5px;
+        word-wrap: break-word;
+    }
+    form {
+        color: white;
+        margin-top: 3%;
+    }
+    form>label {
+        margin-top: 3%;
+        font-size: 1.5em;
+    }
+    form>input {
+        margin-bottom: 3%;
+        width: 30%;
+        font-size: 1.5em;
+    }
+    table input {
+        width: 50%;
+        text-align: center;
+    }
+    #tableNoteElev {
+        display: block;
+        width: 100%;
+        font-size: 7vw;
+    }
+    #noteTable9 {
+        display: none;
+    }
+    #noteTable10 {
+        display: none;
+    }
+    #noteTable11 {
+        display: none;
+    }
+    #noteTable12 {
+        display: none;
+    }
+    .submit-button {
+        margin-top: 0.5em;
+        background-color: white;
+        color: black;
+        align-self: center;
+        width: auto;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+        padding: 5px;
+        display: none;
+        font-size : 15pt;
+    }
+    .submit-button-default {
+        margin-top: 0.5em;
+        background-color: white;
+        color: black;
+        align-self: center;
+        width: auto;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+        padding: 5px;
+        display: block;
+        font-size : 20pt;
+    }
+    form>input {
+        margin: 0;
+        margin-top: 0.5em;
+        border-radius: 15px;
+        border: 0;
+        width: 70%;
+        font-size: 1.5em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    form ul {
+        list-style-type: none;
+        width: auto;
+    }
+    form>ul>li {
+        margin-top: 0.5em;
+        overflow: auto;
+        width: 70%;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    form>ul>li>a {
+        color: black;
+    }
+    label {
+        display: inline-block;
+    }
+    form>input:focus-visible {
+        border: 0;
+        outline: 0;
+    }
+    select {
+        margin-top: 3%;
+        border: 0;
+        border-radius: 5px;
+        margin-top: 0.5em;
+        font-size: 1.5em;
+    }
+    select:focus-visible {
+        border: 0;
+        outline: 0;
+    }
+    #profile-menu-container-mobile {
+        align-self: center;
+        display: block;
+        position: relative;
+    }
+    #profile-menu li {
+        background-color: black;
+        width: 8em;
+    }
+    #profile-menu li:hover {
+        background-color: white;
+    }
+    #profile-menu ul {
+        margin: 0;
+    }
+    #profile-menu {
+        display: none;
+        z-index: 3;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        text-align: right;
+    }
+    #claseAdd {
+        font-size: 1.5em;
+    }
+    #grupaAdd {
+        display: inline-block;
+        font-size: 1.5em;
+    }
+    #grupa-add-label {
+        display: inline-block;
+    }
+    #clase-add-label {
+        display: inline-block;
+    }
+    .account-info {
+        padding: 0;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+    }
+    .contentTable{
+        display : block;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .profile-info{
+        font-size : 5vw;
+    }
+    #add-menu{
+        display : flex;
+        margin-top : 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .add-menu-first-item{
+        border-radius: 10px 0 0 10px;
+    }
+    .add-menu-last-item{
+        border-radius: 0 10px 10px 0;
+    }
+    .add-menu-item{
+        display : inline-block;
+        cursor : pointer;
+        background-color: rgb(118, 126, 171);
+        color : white;
+        padding : 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size : 1.5em;
+    }
+    .add-menu-item:hover{
+        background-color: white;
+        color : black;
+    }
+    #edit-menu{
+        display : flex;
+        margin-top : 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .edit-menu-first-item{
+        border-radius: 10px 0 0 10px;
+    }
+    .edit-menu-last-item{
+        border-radius: 0 10px 10px 0;
+    }
+    .edit-menu-item{
+        display : inline-block;
+        cursor : pointer;
+        background-color: rgb(118, 126, 171);
+        color : white;
+        padding : 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size : 1.5em;
+    }
+    .edit-menu-item:hover{
+        background-color: white;
+        color : black;
+    }
+    #login-menu{
+        display : flex;
+        margin-top : 10px;
+        overflow-x: auto;
+        white-space: nowrap;
+    }
+    .login-menu-first-item{
+        border-radius: 10px 0 0 10px;
+    }
+    .login-menu-last-item{
+        border-radius: 0 10px 10px 0;
+    }
+    .login-menu-item{
+        display : inline-block;
+        cursor : pointer;
+        background-color: rgb(118, 126, 171);
+        color : white;
+        padding : 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size : 1.5em;
+    }
+    .login-menu-item:hover{
+        background-color: white;
+        color : black;
+    }
+    .initially-hidden{
+        display: none;
+    }
+    .small-input{
+        width : 35px;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .modal-content {
+        position: fixed;
+        background-color: #fefefe;
+        color: black;
+        margin: 5% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 75%;
+        top : 30%;
+        left : 50%;
+        transform: translateX(-50%)
+    }
+    .modal-close {
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .modal-close:hover,
+    .modal-close:focus {
+        color: blue;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .mobile-select{
+        width : auto;
+    }
+    .modal-button{
+        font-size:5vw
+    }
+    .list-item{
+        border: 1px solid white;
+        width: fit-content;
+        margin: 2px;
+        padding: 2px;
+        text-align: center;
+    }
+    #materiiList{
+        font-size:7vw;
+    }
+    .modal label{
+        color : black;
+    }
+    .modal .noteInput{
+        color : black;
+        border : 1px solid black;
+    }
+    .asociere-add-button{
+        font-size : 20pt;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    body {
+        background: url(../img/banner.jpg) no-repeat center center fixed;
+        background-size: cover;
+        font-family: "Roboto", serif;
+        margin-top: 0;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    header {
+        background: rgb(118, 126, 171);
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    #menu-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        width : 100%;
+    }
+    #sigla {
+        width: 75px;
+        margin-top: 3px;
+        margin-bottom: 3px;
+        padding: 0;
+    }
+    nav {
+        width: auto;
+        align-self: center;
+        flex-grow: 1;
+    }
+    nav ul {
+        list-style-type: none;
+        margin: 0;
+        margin-left: 3%;
+        padding: 0;
+        height: inherit;
+    }
+    #content h1:first-child {
+        margin: 0;
+        padding-top: 10px;
+    }
+    nav ul li {
+        padding: 1%;
+        margin: 0;
+        height: 100%;
+        display: inline-block;
+        color: white;
+    }
+    nav ul li:hover {
+        background-color: white;
+        color: black;
+    }
+    nav ul li a {
+        color: inherit;
+        text-decoration: none;
+    }
+    article li {
+        margin-bottom: 3px;
+    }
+    footer {
+        color: white;
+        display: flex;
+        justify-content: space-between;
+        background: rgb(118, 126, 171);
+        padding-right: 10px;
+        padding-left: 10px;
+        margin: 0;
+    }
+    .mobile-only {
+        display: none;
+    }
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    p {
+        word-wrap: break-word;
+    }
+    #log-in-button {
+        height: 5%;
+        align-self: center;
+        float: right;
+    }
+    #log-in-button-default {
+        height: 5%;
+        align-self: center;
+        float: right;
+    }
+    #content {
+        background-color: rgb(0, 8, 55, 0.99);
+        color: white;
+        padding: 10px;
+        padding-top: 0px;
+        margin: 0;
+    }
+    a {
+        color: white;
+    }
+    #content #anunturi ul {
+        padding: 0;
+        list-style-type: none;
+    }
+    #content ul {
+        list-style-type: none;
+        padding: 0;
+    }
+    #content>article>p:first-child {
+        padding-top: 10px;
+        margin-top: 0;
+    }
+    #fb-icon {
+        cursor: pointer;
+        width: 3%;
+        order: 1;
+    }
+    #nota1::-webkit-outer-spin-button {
+        opacity: 1;
+    }
+    #nota2::-webkit-outer-spin-button {
+        opacity: 1;
+    }
+    #nota3::-webkit-outer-spin-button {
+        opacity: 1;
+    }
+    #nota4::-webkit-outer-spin-button {
+        opacity: 1;
+    }
+    #nota1::-webkit-inner-spin-button {
+        opacity: 1;
+    }
+    #nota2::-webkit-inner-spin-button {
+        opacity: 1;
+    }
+    #nota3::-webkit-inner-spin-button {
+        opacity: 1;
+    }
+    #nota4::-webkit-inner-spin-button {
+        opacity: 1;
+    }
+    #search-box {
+        display: inline-block;
+        width: 30%;
+        border-radius: 3em;
+        border: none;
+        outline: none;
+    }
+    #search-box:active {
+        border-style: outset;
+        border: none;
+        outline: none;
+    }
+    #search-box:focus {
+        border-style: outset;
+        border: none;
+        outline: none;
+    }
+    #log-in-button {
+        width: auto;
+        background-color: black;
+        color: white;
+        align-self: center;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+    }
+    #log-in-button-default {
+        width: auto;
+        background-color: black;
+        color: white;
+        align-self: center;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+    }
+    .code {
+        background: rgb(28, 41, 116);
+        border: 2px solid black;
+        white-space: pre-wrap;
+        margin: 0;
+        padding-left: 1%;
+        padding-right: 1%;
+    }
+    table {
+        color: white;
+        text-align: center;
+        border-collapse: collapse;
+        width: 100%;
+        table-layout: fixed;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .contentTable {
+        display: block;
+        overflow-x: auto;
+        overflow-y: none;
+        white-space: nowrap;
+        padding-bottom: 1px;
+    }
+    th,
+    td {
+        border: 1px solid grey;
+        padding: 5px;
+    }
+    table input {
+        text-align: center;
+        border: 0;
+    }
+    form>input {
+        margin-top: 10px;
+        border-radius: 15px;
+        border: 0;
+        font-size: 1em;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+    form>input:focus-visible {
+        border: 0;
+        outline: 0;
+    }
+    #noteTable9 {
+        display: none;
+    }
+    #noteTable10 {
+        display: none;
+    }
+    #noteTable11 {
+        display: none;
+    }
+    #noteTable12 {
+        display: none;
+    }
+    .submit-button {
+        margin-top: 0.5em;
+        background-color: white;
+        color: black;
+        align-self: center;
+        width: auto;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+        padding: 5px;
+        display: none;
+        font-size : 15pt;
+    }
+    .submit-button-default {
+        display: block;
+        margin-top: 10px;
+        width: auto;
+        background-color: white;
+        color: black;
+        align-self: center;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+        cursor : pointer;
+    }
+    .button-default {
+        display: block;
+        margin-top: 10px;
+        width: auto;
+        background-color: white;
+        color: black;
+        align-self: center;
+        padding: 10px;
+        border-radius: 15px;
+        border: none;
+        text-align: center;
+    }
+    form ul {
+        list-style-type: none;
+        width: auto;
+    }
+    form li {
+        margin-top: 10px;
+        overflow: auto;
+        width: 30%;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 15px;
+    }
+    .option-list {
+        list-style-type: none;
+        width: auto;
+        margin-top: 0;
+    }
+    .option-list li {
+        display: inline-block;
+        margin-top: 10px;
+        overflow: auto;
+        width: 10%;
+        background-color: white;
+        color: black;
+        padding: 10px;
+        border-radius: 15px;
+        text-align: center;
+    }
+    .option-list li a {
+        color: inherit;
+    }
+    form a {
+        color: inherit;
+    }
+    select {
+        border: 0;
+        border-radius: 5px;
+        margin-top: 10px;
+        font-size: 1em;
+        display: inline-block;
+    }
+    select:focus-visible {
+        border: 0;
+        outline: 0;
+    }
+    textarea:focus-visible {
+        border: 0;
+        outline: 0;
+    }
+    label {
+        display: inline-block;
+        margin-top: 10px;
+    }
+    #capitol {
+        width: 5%;
+    }
+    #continut {
+        width: 70%;
+        height: 70%;
+        text-align: start;
+    }
+    .image {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        display: block;
+        width: 30vw;
+        height: auto;
+    }
+    .image-inline {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        display: inline-block;
+        width: 30vw;
+        height: auto;
+    }
+    #profile-menu-container {
+        display: block;
+        position: relative;
+    }
+    #profile-menu li {
+        padding: 10px;
+        background-color: black;
+        width: 8em;
+    }
+    #profile-menu li:hover {
+        background-color: white;
+    }
+    #profile-menu ul {
+        margin: 0;
+    }
+    #profile-menu {
+        display: none;
+        z-index: 3;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        text-align: right;
+    }
+    #profile-menu-container-mobile {
+        display: none;
+    }
+    #tabelProfil {
+        width: 50%;
+    }
+    .error-message {
+        margin-top: 0;
+        padding-top: 10px;
+    }
+    .account-info {
+        margin: 0;
+        margin-bottom: 0.5em;
+        margin-top: 0.5em;
+    }
+    .account-info:first-child {
+        margin-top: 0.5em;
+    }
+    #username {
+        width: 20%;
+    }
+    #pass {
+        width: 20%;
+    }
+    #addC {
+        display: none;
+    }
+    .noteInput {
+        width: 20px;
+    }
+    .noteInputModal {
+        border: 1px solid black;
+    }
+    .noteInputModal:focus {
+        border: 1px solid black;
+    }
+    input::-webkit-outer-spin-button,
+    input::-webkit-inner-spin-button {
+        -webkit-appearance: none;
+        margin: 0;
+    }
+    input[type=number] {
+        -moz-appearance: textfield;
+    }
+    .nameInput {
+        width: 100%;
+        max-width: 150px;
+    }
+    .dataInput {
+        width: 100%;
+    }
+    .modal {
+        display: none;
+        position: fixed;
+        z-index: 1;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        overflow: auto;
+        background-color: rgb(0, 0, 0);
+        background-color: rgba(0, 0, 0, 0.4);
+    }
+    .modal-content {
+        background-color: #fefefe;
+        color: black;
+        margin: 15% auto;
+        padding: 20px;
+        border: 1px solid #888;
+        width: 25%;
+    }
+    .modal-close {
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+    }
+    .modal-close:hover,
+    .modal-close:focus {
+        color: blue;
+        text-decoration: none;
+        cursor: pointer;
+    }
+    .list-item{
+        border : 1px solid white;
+        width : fit-content;
+        display : inline-block;
+        margin : 2px;
+        padding : 2px;
+    }
+    .list-item-content{
+        display : inline-block;
+        margin : 2px;
+    }
+    .reset-style{
+        all : initial;
+    }
+    #add-menu{
+        display : flex;
+        margin-top : 10px;
+    }
+    .add-menu-first-item{
+        border-radius: 10px 0 0 10px;
+    }
+    .add-menu-last-item{
+        border-radius: 0 10px 10px 0;
+    }
+    .add-menu-item{
+        display : inline-block;
+        cursor : pointer;
+        background-color: rgb(118, 126, 171);
+        color : white;
+        padding : 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size : 1.5em;
+    }
+    .add-menu-item:hover{
+        background-color: white;
+        color : black;
+    }
+    #edit-menu{
+        display : flex;
+        margin-top : 10px;
+    }
+    .edit-menu-first-item{
+        border-radius: 10px 0 0 10px;
+    }
+    .edit-menu-last-item{
+        border-radius: 0 10px 10px 0;
+    }
+    .edit-menu-item{
+        display : inline-block;
+        cursor : pointer;
+        background-color: rgb(118, 126, 171);
+        color : white;
+        padding : 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size : 1.5em;
+    }
+    .edit-menu-item:hover{
+        background-color: white;
+        color : black;
+    }
+    #login-menu{
+        display : flex;
+        margin-top : 10px;
+    }
+    .login-menu-first-item{
+        border-radius: 10px 0 0 10px;
+    }
+    .login-menu-last-item{
+        border-radius: 0 10px 10px 0;
+    }
+    .login-menu-item{
+        display : inline-block;
+        cursor : pointer;
+        background-color: rgb(118, 126, 171);
+        color : white;
+        padding : 5px;
+        margin-left: 0;
+        margin-right: 0;
+        font-size : 1.5em;
+    }
+    .login-menu-item:hover{
+        background-color: white;
+        color : black;
+    }
+    .initially-hidden{
+        display: none;
+    }
+    .small-input{
+        width : 35px;
+    }
+    .profile-info{
+        margin-top : 10px;
+    }
+}
